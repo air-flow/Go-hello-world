@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
 	// var a string
@@ -15,12 +13,14 @@ func main() {
 	sosuu()
 }
 
+// エラトステネスの篩
 func sosuu() {
-	for i := 0; i < 20; i++ {
-		if i%2 == 0 {
-			fmt.Println(i)
-		}
+	num := [98]int{}
+	for i := 2; i < 100; i++ {
+		num[i-2] = i
+
 	}
+	fmt.Println(num)
 }
 
 // C:\Users\user\Documents\GitHub\Go-hello-world\go>go run function.go
