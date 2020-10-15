@@ -4,9 +4,9 @@ package main
 
 import "fmt"
 
-func main() {
-	HelloWorld()
-}
+// func main() {
+// 	HelloWorld()
+// }
 
 func HelloWorld() {
 	//
