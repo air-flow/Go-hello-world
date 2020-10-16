@@ -27,10 +27,10 @@ Go 言語で基礎プログラム作成
 
 ## ToDo
 
-1.Hello World
+1.Hello World checked
 
-2.標準入力,for,if 各関数確認
+2.標準入力,for,if 各関数確認 checked
 
-2.Go で MySQL 接続
+3.素数判定 checked
 
-3.素数判定
+4.Go で MySQL 接続
